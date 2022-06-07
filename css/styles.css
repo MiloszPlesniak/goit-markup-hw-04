@@ -1,0 +1,259 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: "Roboto", "Raleway";
+  color: #212121;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.web-logo {
+  color: #2196f3;
+}
+.header-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  margin-left: 23px;
+  margin-right: 23px;
+}
+.contact {
+  color: #757575;
+}
+.header-nav:hover {
+  color: #2196f3;
+}
+.heading {
+  background-color: #2f303a;
+  font-size: 44px;
+  line-height: 136%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  height: 600px;
+}
+ul {
+  list-style-type: none;
+}
+.button-buy {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 188%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  padding: 10px 41px;
+
+
+}
+.button-buy:hover {
+  cursor: pointer;
+}
+.heading-about {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.about {
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin: 0px;
+  height: 75px;
+}
+.second-heading {
+  font-size: 36px;
+  line-height: 117%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.our-team {
+  background: #f5f4fa;
+  height: 648px;
+}
+.picture-team-box figure {
+  background: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 119%;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-name > p {
+  font-weight: 400;
+  color: #757575;
+  padding-bottom: 30px;
+  margin: 10px 0px 0px 0px;
+}
+.team-name > h4{
+  padding-top: 30px;
+  margin: 0px;
+}
+
+.finish {
+  background: #2f303a;
+  height: 252px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.logo-footer {
+  color: #fff;
+}
+.contact-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+.contact-footer:hover {
+  color: #2196f3;
+}
+.about > li {
+  color: #fff;
+  margin-bottom: 9px;
+}
+.about:first-child{
+  margin-top: 20px;
+}
+
+.button-sort {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  color: #212121;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  line-height: 1.6;
+  margin: 0px 4px;
+  padding: 6px 22px;
+  
+}
+.button-sort:hover {
+  background: #2196f3;
+  color: #fff;
+}
+.product {
+  background: #fff;
+  
+}
+.product h4 {
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0.06em;
+  color: #212121;
+  margin-bottom: 4px;
+}
+.product p {
+  font-size: 16px;
+  line-height: 188%;
+  letter-spacing: 00.03em;
+  color: #757575;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.banner{
+  min-width: 1200px;
+  margin: 0px auto;
+}
+.heading-text{
+padding-top: 106px;
+padding-bottom: 200px;
+}
+.heading-text >h1{
+  margin-bottom: 30px;
+}
+.section-header{
+  border-bottom: 1px solid #ececec;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  height: 80px;
+  margin: 0 auto;
+  
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  }
+  .list-item{
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  ul{
+    padding-inline-start: 0px;
+  }
+  figure{
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+.product-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-content: center;
+
+}
+.product-list-item{
+  flex-basis: calc((100% - 60px) / 3);
+  
+}
+.product figcaption{
+  padding: 20px 24px 20px 24px;
+  border-left: 1px solid #ececec;
+  border-right: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  
+  
+}
+
+h4,
+p,
+figure{
+margin-block-start: 0;
+margin-block-end: 0;
+margin-block-start: 0em;
+margin-block-end: 0em;
+}
+
